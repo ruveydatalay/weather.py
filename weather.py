@@ -17,7 +17,7 @@ def get_weather(city):
         print(f"Weather: {data['weather'][0]['description']}")
         print(f"Humidity: {data['main']['humidity']}%")
     else:
-        print("❌ City not found or API error!")
+        print("City not found or API error!")
 
 if __name__ == "__main__":
     city_name = input("Enter city name: ")
